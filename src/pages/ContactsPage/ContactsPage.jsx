@@ -9,7 +9,7 @@ import { fetchContacts } from "../../redux/contacts/operations";
 import { selectIsLoading, selectIsError } from "../../redux/contacts/selectors";
 import { RotatingLines } from "react-loader-spinner";
 import { selectCurrentContact } from "../../redux/contacts/selectors";
-import ContactEditor from "../../components/ContactEditor/ContatcEditor";
+import ContactEditor from "../../components/ContactEditor/ContactEditor";
 import style from "./ContactsPage.module.css";
 
 export default function ContactsPage() {
